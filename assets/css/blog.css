@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,400&family=IBM+Plex+Serif:wght@300&display=swap');
+
+h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+}
+
+p {
+    font-family: 'IBM Plex Serif', serif;
+}
+
+em {
+    font-style: italic;
+}
+
+a {
+    text-decoration: none !important;
+    color: rgb(7, 82, 167) !important;
+}
+
+a:hover {
+    color: rgb(3, 3, 29) !important;
+}

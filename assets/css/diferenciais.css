@@ -1,16 +1,16 @@
 .dif {
-    background-color: rgba(87, 104, 112, 0.61);
+    background-color: rgba(172, 180, 201, 0.719);
     border-radius: 3vh;
     margin: 3vh;
 }
 
 .dif h2 {
     text-align: center;
-    color: aliceblue;
+    color: rgb(21, 21, 22);
 }
 
 .dif p {
-    color: rgb(255, 255, 255);
+    color: rgb(48, 41, 41);
 }
 
 .img-fluid {

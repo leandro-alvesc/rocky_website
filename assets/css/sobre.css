@@ -1,4 +1,32 @@
 .texto {
   text-align: justify;
   font-size: 2vh;
+  color: rgb(255, 255, 255);
+  background-color: rgba(37, 38, 39, 0.288);
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
+}
+
+.about img {
+  width: 15%;
+  height: auto;
+}
+
+@media screen and (max-width: 1000px){
+  .about img {
+    width: 40%;
+    height: auto;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .about img {
+    width: 60%;
+    height: auto;
+  }
 }
