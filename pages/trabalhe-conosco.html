@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="user-scalable=no, width=device-width, initial-scale=1.0"
+    />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Rocky - Marketing Digital com Performance</title>
+    <!-- Icon -->
+    <link rel="icon" href="../assets/img/favicon.ico" type="image/x-icon" />
+    <!-- Reset CSS -->
+    <link rel="stylesheet" href="../assets/css/reset.css" />
+    <!-- Bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/contato.css" />
+    <!-- FontAwesome -->
+    <script
+      src="https://kit.fontawesome.com/22141c92d0.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="overlay my-1 row">
+      <header class="header">
+        <div class="nav-top text-uppercase" id="nav-top">
+          <a class="icon" onclick="toggleMenu()">
+            <i class="fa fa-bars fa-2x"></i>
+          </a>
+          <a href="../index.html" class="logo">
+            <picture>
+              <source
+                media="(max-width: 1250px)"
+                srcset="../assets/img/mobile/logo.png"
+                type="image/png"
+              />
+              <img src="../assets/img/web/logo.png" alt="logo" /> </picture
+          ></a>
+          <ul class="cont-menu" id="cont-menu">
+            <li><a href="./sobre.html">sobre a rocky</a></li>
+            <li><a href="./servicos.html">serviços</a></li>
+            <li><a href="./diferenciais.html">diferenciais</a></li>
+            <li><a href="./trabalhe-conosco.html">trabalhe conosco</a></li>
+            <li><a href="./contato.html">contato</a></li>
+            <li><a href="./blog.html">blog</a></li>
+          </ul>
+        </div>
+      </header>
+      <div class="col-md-5 col-lg-5 pt-5">
+        <main class="container row d-flex justify-content-center">
+          <div class="alert alert-danger hidden" role="alert" id="inp-alert">
+            <span class="px-md-4">
+              <strong>Entrada inválida!</strong> Por favor, preencha
+              corretamente os campos abaixo.
+            </span>
+          </div>
+          <h1 class="text-center text-uppercase my-4">trabalhe conosco</h1>
+          <form class="form" id="form">
+            <div class="form-group my-2">
+              <label for="inp-name">Nome</label>
+              <input
+                class="form-control"
+                id="inp-name"
+                placeholder="Leandro Alves"
+                minlength="5"
+              />
+            </div>
+            <div class="form-group my-2">
+              <label for="inp-email">Endereço de Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="inp-email"
+                placeholder="nome@seuemail.com"
+                minlength="5"
+              />
+            </div>
+            <div class="form-group my-2">
+              <label for="inp-subject">Assunto</label>
+              <input
+                class="form-control"
+                id="inp-subject"
+                placeholder="Informe sua especialidade..."
+                minlength="5"
+              />
+            </div>
+            <div class="form-group my-2">
+              <label for="inp-cv">Anexar currículo</label>
+            </div>
+            <div class="form-group">
+              <input type="file" class="custom-file-input" id="inp-cv" />
+            </div>
+            <div class="form-group my-2">
+              <label for="inp-msg">Mensagem</label>
+              <textarea
+                class="form-control"
+                id="inp-msg"
+                rows="3"
+                placeholder="Digite aqui sua mensagem..."
+                minlength="20"
+              ></textarea>
+            </div>
+            <button
+              type="button"
+              class="btn btn-primary my-2 rounded-pill"
+              onclick="enviarMensagem()"
+            >
+              Enviar
+            </button>
+          </form>
+        </main>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../assets/js/script.js"></script>
+  </body>
+</html>
