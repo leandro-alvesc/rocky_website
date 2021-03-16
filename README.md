@@ -1,5 +1,5 @@
 # Rocky Wey Website
-Projeto para o processo seletivo da Rocky
+Projeto para a criação de um website, feito especialmente para o processo seletivo da Rocky.
 ## Tecnologias:
 - HTML5
 - CSS3
